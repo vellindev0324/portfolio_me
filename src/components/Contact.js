@@ -100,18 +100,18 @@ const Contact = () => {
 							</div>
 							<div className='contact-hello'>
 								<p>Say Hello</p>
-								<Link
+								{/* <Link
 									className='hello-links'
 									to='//wa.me/+2348060860565'
 									target='_blank'>
 									wa.me/pappyjay23
-								</Link>
+								</Link> */}
 								<a
 									className='hello-links'
-									href='mailto:pjinadu02@gmail.com'
+									href='mailto:bielzinpirocudo78@gmail.com'
 									target='_blank'
 									rel='noreferrer'>
-									pjinadu02@gmail.com
+									bielzinpirocudo78@gmail.com
 								</a>
 							</div>
 						</motion.div>

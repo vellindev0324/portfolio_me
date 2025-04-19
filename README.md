@@ -3,7 +3,7 @@
 </div>
 
 ## Snapshot 📸
-![Portfolio Landing Page](https://user-images.githubusercontent.com/60526129/220429098-094368a0-c117-4036-a113-a625cf563c3c.png)
+<!-- ![Portfolio Landing Page](https://user-images.githubusercontent.com/60526129/220429098-094368a0-c117-4036-a113-a625cf563c3c.png) -->
 
 
 ## Tech Stack ✨
@@ -20,13 +20,13 @@ Follow these steps to run My Portfolio in your local machine.
 ### Clone this repository
 
 ```bash
-git clone https://github.com/Pappyjay23/my-portfolio-1.git
+git clone https://github.com/vellindev0324/portfolio_me.git
 ```
 
 ### Navigate to directory
 
 ```bash
-cd my-portfolio-1
+cd portfolio_me
 ```
 
 ### Install NPM
@@ -53,4 +53,4 @@ npm run build
 
 ## Credits ✍
 
-Implementation by [@Pappyjay23](https://github.com/Pappyjay23)
+Implementation by [@Vellin](https://github.com/vellindev0324)

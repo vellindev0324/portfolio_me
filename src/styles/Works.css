@@ -1,0 +1,187 @@
+.works-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.work-link-group {
+	text-decoration: none;
+}
+
+.works-container {
+	width: 100%;
+}
+
+.works-card {
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	position: relative;
+	padding: 1rem 2rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.works-card:hover {
+	transform: translateY(-7px);
+}
+
+.works-card:hover .work-title {
+	color: var(--nav-blue);
+}
+
+.top-work {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.top-work .right {
+	display: flex;
+}
+
+.mid-work {
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.work-title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	word-spacing: 5px;
+	margin-bottom: 0.5rem;
+}
+
+.work-desc {
+	font-size: 70%;
+}
+
+.work-folder {
+	font-size: 2rem;
+	color: var(--nav-blue);
+}
+
+.work-git,
+.work-link {
+	color: var(--nav-grey);
+	margin: 0 0.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+.work-git:hover,
+.work-link:hover {
+	color: var(--nav-blue);
+}
+
+.bottom-work {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom-work small {
+	margin: 0 0.5rem;
+	font-size: 60%;
+}
+
+/* New styles for tabs */
+.tabs {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+  }
+  
+  .tab {
+	padding: 0.5rem 1rem;
+	margin: 0 0.5rem;
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 1rem;
+	outline: none;
+  }
+  
+  .tab:hover {
+	background-color: var(--nav-blue);
+	color: white;
+  }
+  
+  .tab.active {
+	background-color: var(--nav-blue);
+	color: white;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 750px) {
+	.tabs {
+	  flex-wrap: wrap;
+	}
+  
+	.tab {
+	  margin: 0.5rem;
+	}
+  }
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 550px) {
+	.work-desc {
+		font-size: 60%;
+	}
+
+	.work-folder {
+		font-size: 1.5rem;
+	}
+
+	.work-git,
+	.work-link {
+		font-size: 1.2rem;
+	}
+
+	.work-title {
+		font-size: 1.2rem;
+	}
+
+	.bottom-work small {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.works-card {
+		width: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
+}

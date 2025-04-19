@@ -1,0 +1,65 @@
+.services-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.services-card {
+    width: fit-content;
+    max-width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.services-card:hover {
+    box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+    border: none;
+}
+
+.services-icon {
+    font-size: 3rem;
+    color: var(--nav-blue);
+    margin-bottom: 2rem;
+}
+
+.services-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.services-desc {
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .services-card {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .services-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .services-title {
+        font-size: 1.2rem;
+    }
+    
+    .services-desc {
+        font-size: .7rem;
+    }
+}
